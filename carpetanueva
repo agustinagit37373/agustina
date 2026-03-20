@@ -7,6 +7,10 @@
   </head>
   <body>
     <h1>DEVELOP CARPETA</h1>
-    <h2></h2>
+    <input type="text" />
+    <input type="email" />
+    <input type="password" />
+    <input type="checkbox" />
+    <input type="radio" />
   </body>
 </html>
