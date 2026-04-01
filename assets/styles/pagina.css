@@ -2,6 +2,12 @@ body {
   background-color: #448088;
   font-family: Arial;
   margin: 0;
+
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 h1 {
@@ -59,16 +65,16 @@ footer {
   padding: 20px;
 }
 .cuadrado {
-  width: 1200px;
-  height: 800px;
+  width: 200px;
+  height: 200px;
   background-color: #649210;
+  box-shadow: -12px 17px 162px 151px rgba(100, 146, 16, 1);
+  -webkit-box-shadow: -12px 17px 162px 151px rgba(100, 146, 16, 1);
+  -moz-box-shadow: -12px 17px 162px 151px rgba(100, 146, 16, 1);
 
   margin: 50px auto;
 }
 
-.cuadrado2 {
-  background-color: #53b9c6;
-}
 section p {
-  background-color: #448088;
+  background-color: #649210;
 }
