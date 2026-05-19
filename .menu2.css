@@ -1,0 +1,47 @@
+.menu-hamb {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.hamburger {
+  font-size: 28px;
+  user-select: none;
+}
+
+.menu-navegacion {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 160px;
+  overflow: hidden;
+  background: rgb(46, 142, 41);
+  border: 1px solid #357563;
+  border-radius: 6px;
+  max-height: 0;
+  transition: max-height 0.3s ease;
+}
+
+.menu-hamb:hover .menu-navegacion {
+  max-height: 300px;
+}
+
+.menu-navegacion a {
+  display: block;
+  padding: 10px 16px;
+  text-decoration: none;
+  color: #333;
+  font-family: sans-serif;
+  font-size: 14px;
+  white-space: nowrap;
+  border-bottom: 1px solid #902c2c;
+}
+
+.menu-navegacion a:last-child {
+  border-bottom: none;
+}
+
+.menu-navegacion a:hover {
+  background: #651111;
+}
