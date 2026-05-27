@@ -1,0 +1,129 @@
+body {
+  background: #333;
+  color: #f7f7f7;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+div.navbar {
+  background: rgba(20, 20, 20, 0.75);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.navbar h1 {
+  color: #f7f7f7;
+  margin: 0;
+  font-size: 20px;
+}
+
+div.carrito-boton {
+  color: #f7f7f7;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+div.carrito-numero {
+  background: #f4c542;
+  color: #1f1f1f;
+  border-radius: 50%;
+  width: 26px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+div.centro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 56px);
+}
+
+div.tarjeta {
+  background: #f8f8f8;
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  width: 660px;
+  height: 360px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+}
+
+div.imagen-lado {
+  background-color: #f5c800;
+  width: 50%;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+div.imagen-lado img {
+  width: 100%;
+  height: 100%;
+}
+
+div.info-lado {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 35px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 14px;
+}
+
+p.etiqueta {
+  color: #a86f00;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+h1.nombre-producto {
+  font-size: 28px;
+  color: #181818;
+  margin: 0;
+  line-height: 1.2;
+}
+
+p.descripcion {
+  color: #5f5f5f;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+p.precio {
+  font-size: 26px;
+  font-weight: bold;
+  color: #111;
+  margin: 0;
+}
+
+div.boton-comprar {
+  background: #f4c542;
+  color: #1f1f1f;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 14px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+}
+
+div.boton-comprar:hover {
+  background: #ffd75e;
+  box-shadow: 0 12px 24px rgba(244, 197, 66, 0.25);
+}
